@@ -14,8 +14,7 @@ function App() {
           </p>
         </div>
       </div>
-      <p>hello</p>
-      <div class="attribution">
+      <div className="attribution">
         Challenge by 
         <a
           href="https://www.frontendmentor.io?ref=challenge"
