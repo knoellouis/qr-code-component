@@ -1,27 +1,20 @@
-import qrcode from "./image-qr-code.png";
 import "./App.scss";
+import Card from "./components/card/card.component";
 
 function App() {
   return (
     <div className="app">
       <div className="app-container">
-        <img src={qrcode} className="qr-code" alt="logo" />
-        <div className="text-container">
-          <h3>Improve your front-end skills by building projects</h3>
-          <p>
-            Scan the QR code to visit Frontend Mentor and take your coding
-            skills to the next level
-          </p>
-        </div>
+        <Card />
       </div>
       <div className="attribution">
-        Challenge by 
+        Challenge by
         <a
           href="https://www.frontendmentor.io?ref=challenge"
           target="_blank"
           rel="noreferrer"
         >
-           Frontend Mentor
+          <span>Frontend Mentor</span>
         </a>
         . Coded by{" "}
         <a
@@ -29,7 +22,7 @@ function App() {
           target="_blank"
           rel="noreferrer"
         >
-          Keitha Noel-Louis
+          <span>Keitha Noel-Louis</span>
         </a>
         .
       </div>
